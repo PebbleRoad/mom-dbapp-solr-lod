@@ -841,14 +841,15 @@
        <str name="omitHeader">true</str>
        <str name="wt">json</str>
 
-       <str name="qf">offender_t^6 designation^6 ngram</str>
-       <str name="pf">offender_t^10</str>
+       <str name="qf">dormitory_t^6 operatorName_t^6 ngram</str>
+       <str name="pf">dormitory_t^10</str>
 
        <!-- faceting defaults -->
        <str name="facet">on</str>
-       <str name="facet.field">industryName_s</str>
-       <str name="facet.field">typeOfOffence_s</str>
-       <str name="facet.field">year_i</str>
+       <str name="facet.field">licenseIssuance_s</str>
+       <str name="facet.field">dormitoryUse_s</str>
+       <str name="facet.field">region_s</str>
+       <str name="facet.field">neighbourhood_s</str>
        <str name="facet.query">*</str>
        <str name="facet.mincount">1</str>
 
